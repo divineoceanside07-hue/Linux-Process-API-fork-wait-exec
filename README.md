@@ -24,69 +24,70 @@ Test the C Program for the desired output.
 # PROGRAM:
 
 ## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
+```
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
+int main(void)
+{	//variable to store calling function's process id
+	pid_t process_id;
+	//variable to store parent function's process id
+	pid_t p_process_id;
+	//getpid() - will return process id of calling function
+	process_id = getpid();
+	//getppid() - will return process id of parent function
+	p_process_id = getppid();
+	//printing the process ids
 
+//printing the process ids
+	printf("The process id: %d\n",process_id);
+	printf("The process id of parent function: %d\n",p_process_id);
+	return 0; 
+}
+```
+gcc forkcheck.c -o forkcheck.o
 
+chmod 755 forkcheck.o
 
-
-
-
-
-
-
-
-
-
+./forkcheck.o
 
 ##OUTPUT
 
-
-
-
-
-
+<img width="692" height="333" alt="image" src="https://github.com/user-attachments/assets/ec237968-9410-4ef3-bd6c-e00a0c0e6058" />
 
 
 ## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
 
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/wait.h>
+#include <unistd.h>
 
+int main() {
+    int status;
+    
+    printf("Running ps with execlp\n");
+    if (fork() == 0) {
+        execlp("ps", "ps", "-f", NULL);
+        exit(1);
+    }
+    wait(&status);
+    
+    printf("Done.\n");
+    return 0;
+}
 
+```
+gcc exitwait.c -o exitwait.o
 
+chmod 755 exitwait.o
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+./exitwait.o
 
 ##OUTPUT
 
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="918" height="329" alt="image" src="https://github.com/user-attachments/assets/d2a8b46c-7e74-496f-a807-3b3249f0d03e" />
 
 
 
