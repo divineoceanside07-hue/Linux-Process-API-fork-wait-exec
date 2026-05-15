@@ -53,7 +53,8 @@ chmod 755 forkcheck.o
 
 ##OUTPUT
 
-<img width="692" height="333" alt="image" src="https://github.com/user-attachments/assets/ec237968-9410-4ef3-bd6c-e00a0c0e6058" />
+<img width="1600" height="769" alt="WhatsApp Image 2026-05-15 at 8 13 19 AM" src="https://github.com/user-attachments/assets/5d15d618-3d57-406b-bae2-cdf5f6841f6c" />
+
 
 
 ## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
@@ -87,9 +88,7 @@ chmod 755 exitwait.o
 
 ##OUTPUT
 
-<img width="918" height="329" alt="image" src="https://github.com/user-attachments/assets/d2a8b46c-7e74-496f-a807-3b3249f0d03e" />
-
-
+<img width="1600" height="592" alt="image" src="https://github.com/user-attachments/assets/b55062c3-8c07-4887-92d9-720f189fe369" />
 
 
 
