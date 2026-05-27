@@ -53,7 +53,8 @@ chmod 755 forkcheck.o
 
 ##OUTPUT
 
-<img width="1600" height="769" alt="WhatsApp Image 2026-05-15 at 8 13 19 AM" src="https://github.com/user-attachments/assets/5d15d618-3d57-406b-bae2-cdf5f6841f6c" />
+<img width="1808" height="870" alt="ChatGPT Image May 27, 2026, 08_35_00 AM" src="https://github.com/user-attachments/assets/ebcd72e9-1a2e-4c57-92db-0fdefcc3e08c" />
+
 
 
 
@@ -87,8 +88,9 @@ chmod 755 exitwait.o
 ./exitwait.o
 
 ##OUTPUT
+<img width="1829" height="860" alt="image" src="https://github.com/user-attachments/assets/61301a76-8ffb-48f8-904d-c51d3a05a4c7" />
 
-<img width="1600" height="592" alt="image" src="https://github.com/user-attachments/assets/b55062c3-8c07-4887-92d9-720f189fe369" />
+
 
 
 
